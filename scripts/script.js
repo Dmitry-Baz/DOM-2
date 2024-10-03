@@ -57,7 +57,7 @@ const tasks = [
   
     return taskItem;
   };
-  
+
   const createTaskForm = document.querySelector(".create-task-block");
   createTaskForm.addEventListener("submit", (event) => {
     event.preventDefault();
